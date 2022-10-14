@@ -1,6 +1,14 @@
-# Gradcient_Descent(경사 하강법)
+# Gradient_Descent(경사 하강법)
 
 - feature가 2개라고 가정: `f1`, `f2`
+- `w1`, `w2`: f1, f2의 weight
+-  `bias`: bias
+-  `N`: 입력 데이터 수
+
+    ![image](https://user-images.githubusercontent.com/74661937/195858110-f3c63c2a-a513-4e5a-acba-bc0c1a40f9cd.png)
+    
+    ![image](https://user-images.githubusercontent.com/74661937/195858191-872949d1-dd2b-4483-b6df-4a09500a0023.png)
+
 
 ## weight와 bias를 업데이트 하는 함수
 ```python
